@@ -1,0 +1,29 @@
+{
+  "name": "measure",
+  "owner": {
+    "name": "Measure",
+    "email": "matt@measure.dev"
+  },
+  "metadata": {
+    "description": "Agent skills for Measure — the AI-native metrics platform.",
+    "version": "0.1.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "sdk-instrumenter",
+      "source": "./plugins/sdk-instrumenter",
+      "description": "Instrument a Next.js B2B SaaS app with the Measure SDK. Planning-first workflow: reads your codebase, plans metrics using Kimball-style dimensional modeling, then writes instrumentation code.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Measure",
+        "email": "matt@measure.dev"
+      },
+      "homepage": "https://measure.dev",
+      "repository": "https://github.com/measuremetrics/agent-skills",
+      "license": "MIT",
+      "keywords": ["measure", "metrics", "instrumentation", "b2b-saas", "nextjs", "sdk"],
+      "category": "developer-tools"
+    }
+  ]
+}
