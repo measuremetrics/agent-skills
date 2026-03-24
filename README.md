@@ -18,8 +18,11 @@ Instruments a Next.js B2B SaaS app with the Measure SDK (`@measuremetrics/measur
 
 ## Install
 
+Add the marketplace and install the plugin from within Claude Code:
+
 ```
-claude install measuremetrics/agent-skills
+/plugin marketplace add measuremetrics/agent-skills
+/plugin install sdk-instrumenter@measuremetrics-agent-skills
 ```
 
 Then trigger the skill:
